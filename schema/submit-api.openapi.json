@@ -1,0 +1,56 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ContractFirst-API",
+    "version": "2020-11-27T19:27:39Z"
+  },
+  "servers": [
+    {
+      "url": "https://3jem83zvt2.execute-api.eu-west-2.amazonaws.com/{basePath}",
+      "variables": {
+        "basePath": {
+          "default": "/prod"
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/{proxy+}": {
+      "x-amazon-apigateway-any-method": {}
+    },
+    "/submit": {
+      "post": {
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SubmitRequestModel"
+              }
+            }
+          },
+          "required": true
+        }
+      }
+    },
+    "/": {
+      "x-amazon-apigateway-any-method": {}
+    }
+  },
+  "components": {
+    "schemas": {
+      "SubmitRequestModel": {
+        "title": "errorResponse",
+        "required": ["message"],
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

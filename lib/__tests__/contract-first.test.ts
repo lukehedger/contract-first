@@ -1,17 +1,17 @@
 import "@aws-cdk/assert/jest";
 import { App } from "@aws-cdk/core";
-import { CdkInitStack } from "../cdk-init-stack";
+import { ContractFirstStack } from "../contract-first-stack";
 
-let stack: CdkInitStack;
+let stack: ContractFirstStack;
 
 beforeAll(() => {
   const app = new App();
 
-  stack = new CdkInitStack(app, "CdkInitStack");
+  stack = new ContractFirstStack(app, "ContractFirstStack");
 });
 
 test("Stack has no resources", () => {
   expect(stack).toMatchTemplate({
-    Resources: {}
+    Resources: {},
   });
 });

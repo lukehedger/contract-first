@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
+    "esModuleInterop": true,
     "inlineSourceMap": true,
     "inlineSources": true,
     "module": "commonjs",
@@ -8,9 +9,10 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "resolveJsonModule": true,
     "strict": true,
     "target": "ES2018",
     "typeRoots": ["./node_modules/@types"]
   },
-  "exclude": ["cdk.out"]
+  "exclude": ["cdk.out", "lib/__tests__"]
 }

@@ -1,26 +1,29 @@
 {
-  "name": "cdk-init",
+  "name": "contract-first",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "build": "tsc",
     "deploy": "cdk deploy",
-    "destroy": "cdk destroy",
-    "diff": "cdk diff",
+    "generate:types": "json2ts --input schema/submit-request.schema.json --output types/submit-request.d.ts",
     "synth": "cdk synth",
-    "test": "jest",
-    "watch": "tsc -w"
+    "test": "jest"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.56.0",
+    "@aws-cdk/assert": "1.75.0",
+    "@types/aws-lambda": "8.10.64",
     "@types/jest": "26.0.15",
     "@types/node": "14.14.10",
     "aws-cdk": "1.75.0",
     "jest": "26.6.3",
+    "json-schema-to-typescript": "10.0.0",
+    "json-schema-yup-transformer": "1.5.8",
     "ts-jest": "26.4.4",
     "typescript": "4.1.2"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.56.0"
+    "@aws-cdk/aws-apigateway": "1.75.0",
+    "@aws-cdk/aws-lambda": "1.75.0",
+    "@aws-cdk/core": "1.75.0"
   }
 }

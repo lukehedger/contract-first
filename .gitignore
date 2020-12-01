@@ -9,7 +9,9 @@ node_modules
 
 # Generated files
 .cdk.staging
+.next
 cdk.out
+out
 **/bin/**/*.d.ts
 **/bin/**/*.js
 **/lib/**/*.d.ts
