@@ -24,3 +24,5 @@
 - React app with Yup form validation and TypeScript type-checking
 - Lambda function with typed event body
 - _Optional: EventBridge Schema Registry and event bus_
+
+![Untitled-2020-12-01-1940](https://user-images.githubusercontent.com/1913316/100788961-b91f7d80-340d-11eb-9b22-558901aaf92c.png)
