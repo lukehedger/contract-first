@@ -3318,10 +3318,10 @@ json-schema-traverse@^0.4.1:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
   integrity sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
 
-json-schema-yup-transformer@1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/json-schema-yup-transformer/-/json-schema-yup-transformer-1.5.8.tgz#44beab25fcca19197aa1e8cda2462ad468f058c2"
-  integrity sha512-Bhc+rslZWbu3YkLMf75lMqFtWLzb+r1c/3yQERbcHl++SZ0AA1J9jxX25MEd2XFUjW7zPCWhROtkTLXBNYUw4Q==
+json-schema-yup-transformer@1.5.9:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/json-schema-yup-transformer/-/json-schema-yup-transformer-1.5.9.tgz#80f02ccedad1ad62a53b8effa94d36a3eed9c965"
+  integrity sha512-3KxV+rCLjbFOJIiUH3+GJXY4oRSFZdtsrEWSxZiAQFcMsdtYyy/Z+EGnKh4MfGJpCDFYX463bDRfoCUXpnhW7Q==
   dependencies:
     is-relative-url "3.0.0"
     lodash "4.17.19"
@@ -3477,12 +3477,12 @@ lodash.union@^4.6.0:
   resolved "https://registry.yarnpkg.com/lodash.union/-/lodash.union-4.6.0.tgz#48bb5088409f16f1821666641c44dd1aaae3cd88"
   integrity sha1-SLtQiECfFvGCFmZkHETdGqrjzYg=
 
-lodash@4.17.19, lodash@^4.17.13, lodash@^4.17.15:
+lodash@4.17.19:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
-lodash@^4.17.20:
+lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
